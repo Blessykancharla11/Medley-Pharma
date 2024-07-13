@@ -1,0 +1,94 @@
+/* Container styling */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image styling */
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 20px;
+  color: black;
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Card text styling */
+.card-text {
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #882ec4; /* Dark violet shade */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #af6ddb; /* Slightly darker violet shade on hover */
+}
+
+/* Additional button container styling for admin actions */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Specific styling for edit and delete buttons */
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Form styling in AddMedicine component */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 10px;
+}

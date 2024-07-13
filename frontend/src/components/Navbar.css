@@ -1,0 +1,123 @@
+/* Update Navbar CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #9b4bd0;
+    color: white;
+    position: relative; /* Ensure relative positioning for dropdown */
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .logo .logo-image {
+    height: 60px; /* Adjust the size as needed */
+    width: 60px; /* Ensure it is square to make it round */
+    border-radius: 50%; /* Make it round */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center; /* Align items vertically center */
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: transform 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.white-text {
+  color: white !important;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #882ec4;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #882ec4;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #dfbbf0;
+}
+
+.user-icon {
+    cursor: pointer;
+    margin-left: 15px;
+    position: relative;
+}
+
+.user-icon img {
+    height: 40px; /* Adjust the height as needed */
+    width: 40px; /* Ensure it is square to make it round */
+    border-radius: 50%; /* Make it round */
+}
+
+.user-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #882ec4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.user-dropdown.show {
+    display: block;
+}
+
+.user-dropdown a {
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.user-dropdown a:hover {
+    background-color: #dfbbf0;
+}
+
+.navbar .logout {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar .logout:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Additional styles for Navbar CSS */
+.navbar .wishlist i {
+    color: white; /* Default color */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar .wishlist.clicked i {
+    color: red; /* Color when clicked */
+}

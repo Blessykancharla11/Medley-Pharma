@@ -1,0 +1,234 @@
+.home-page {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  animation: fadeIn 1s ease; /* Add animation here */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  animation: fadeIn 1s ease; /* Add animation here */
+}
+
+.features-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  animation: fadeIn 1s ease; /* Add animation here */
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  animation: fadeIn 1s ease; /* Add animation here */
+}
+
+.hero-section {
+  background: url('../assets/med2.jpeg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  animation: fadeIn 1s ease;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  animation: pulse 2s infinite alternate;
+}
+
+.hero-section p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.hero-section button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #9b4bd0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-section button:hover {
+  background-color: #943dce;
+  transform: scale(1.05);
+}
+
+.features-section {
+  padding: 50px 20px;
+  background-color: white;
+  animation: fadeIn 1s ease;
+}
+
+.features-section h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background-color: #c6a3de;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #9b4bd0;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  animation: fadeIn 1s ease;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.navbar {
+  position: relative;
+}
+
+.dropdown-menu {
+  background-color: #882ec4;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #333;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #dfbbf0;
+}
+
+.user-icon {
+  cursor: pointer;
+  margin-left: 15px;
+  position: relative;
+}
+
+.user-icon img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #882ec4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.user-dropdown.show {
+  display: block;
+}
+
+.user-dropdown a {
+  color: #333;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.user-dropdown a:hover {
+  background-color: #dfbbf0;
+}

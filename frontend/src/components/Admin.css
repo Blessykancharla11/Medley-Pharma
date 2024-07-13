@@ -1,0 +1,124 @@
+/* src/components/Admin.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('bac.jpg') no-repeat center center fixed;
+  /* background: linear-gradient(135deg, #e4a1fd 0%, #ebc2fb 100%); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 2rem; /* Ensure forms are not at the edge */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  animation: backgroundAnimation 15s ease infinite;
+}
+
+/* @keyframes backgroundAnimation {
+  0% { background: linear-gradient(135deg, #e4a1fd 0%, #ebc2fb 100%); }
+  50% { background: linear-gradient(135deg, #ebc2fb 0%, #e4a1fd 100%); }
+  100% { background: linear-gradient(135deg, #e4a1fd 0%, #ebc2fb 100%); }
+} */
+
+.admin-form {
+  background:  rgba(209, 145, 219, 0.3);/* Light purple transparent background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation: formAnimation 1s ease forwards;
+  transform: translateY(-100px);
+}
+
+@keyframes formAnimation {
+  to {
+    transform: translateY(0);
+  }
+}
+
+.admin-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #9b4bd0;
+  box-shadow: 0 0 5px rgba(195, 0, 255, 0.5);
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: violet; /* Change this to a violet shade */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #8a2be2; /* Slightly darker violet for hover */
+  box-shadow: 0 4px 10px rgba(101, 0, 179, 0.5);
+}
+
+.signup-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #ae00ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #6e00b3;
+  text-decoration: underline;
+}
+
+.stop-animation {
+  animation: none;
+}

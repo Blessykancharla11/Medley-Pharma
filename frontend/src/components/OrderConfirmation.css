@@ -1,0 +1,94 @@
+/* Styles for the order confirmation container */
+.order-confirmation-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(208, 158, 216, 0.3); /* Light violet shade */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Heading styles */
+.order-confirmation-container h2 {
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.order-confirmation-container h3 {
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+/* Responsive table styles */
+.table-responsive {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  color: #333; /* Dark text color */
+}
+
+.table th {
+  background-color: rgba(224, 178, 232, 0.6); /* Darker violet shade for table header */
+  color: #070707; /* White text color */
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Footer table row styles */
+tfoot td {
+  font-weight: bold;
+}
+
+/* Styling for user details box */
+.user-details-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(235, 219, 243, 0.578); /* Lighter violet shade */
+  border: 1px solid rgba(186, 121, 198, 0.4); /* Medium shade border */
+  border-radius: 8px;
+  text-align: left;
+}
+
+.user-details-box h4 {
+  color: #000000; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.user-details-box p {
+  color: #0e0e0e; /* Medium dark text color */
+  margin-bottom: 5px;
+}
+
+/* Styling for buttons */
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #882ec4; /* Dark violet shade */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: rgba(208, 19, 241, 0.8); /* Slightly darker violet shade on hover */
+}
